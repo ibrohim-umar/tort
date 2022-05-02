@@ -1,0 +1,69 @@
+.footer{
+    position: relative;
+    height: 100vh;
+    background-color: black;
+    
+}
+.cards{
+    display: flex;
+    
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ .ul-form .li-form{
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-left: 3rem;
+}
+.li-form a{
+    text-decoration: none;
+    font-size: 45px;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    text-align: center;
+}
+.form-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    
+   
+}
+.form-footer label{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.form-footer input {
+    padding: 15px 50px;
+}
+.form-footer textarea{
+    margin-top: 3rem;
+    padding: 20px 30px ;
+}
+form button{
+    padding: 5px 10px;
+    margin-top: 1rem;
+    font-size: 17px;
+    color: black;
+    font-weight: bolder;
+}
+.icons{
+    color: blueviolet;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 3%;
+    top: 5%;
+    gap: 80px;
+    
+   
+}
